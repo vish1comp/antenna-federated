@@ -4,6 +4,10 @@ Code and results for *Federated Learning of Antenna Surrogates Across Laboratori
 Physics-Informed Inputs, Personalization, and Per-Client Conformal Certificates*
 (manuscript in preparation).
 
+**Vishal Verma¹, Govind Kumar Pandey², Pawan Kumar¹, Pradnya Amrish Gajbhiye¹**
+¹ Indian Institute of Information Technology, Bhopal, India ·
+² Dayananda Sagar University, Bengaluru, India
+
 Several laboratories each own a private archive of patch-antenna simulations and will not
 pool them. Can they still train one shared |S11| surrogate, and can each of them say how far
 its predictions can be trusted? This repository trains the surrogate with federated learning,
@@ -23,6 +27,11 @@ conformal bound, and it reports coverage separately for every lab.
 | Certificates | Under shift, thresholds shared across labs (pooled or one-round QQ) miss 90 % for some labs (down to 75 %, and 49 % for the centrally trained model); local calibration is valid for every lab and needs no communication. |
 
 All numbers are means over three seeds; `results/summary.md` has every table.
+
+![per-client coverage](figures/fl_coverage.png)
+*Coverage of each lab's 90 % certificate under band / substrate shift (mean of 3 seeds). Local
+calibration (circles) stays inside the chance range for every lab; thresholds shared across labs
+(squares, triangles) can drift out of it when the labs differ.*
 
 ## Setup
 
@@ -88,6 +97,11 @@ figures/               all figures in the manuscript
 - Every method gets the same number of gradient steps per client (50 rounds × 200 steps).
 - Conformal scores are computed per design: sup-norm sweep error, sweep RMSE and
   resonant-frequency error, with target coverage 90 %.
+
+## Citation
+
+Use the **Cite this repository** button on GitHub (from `CITATION.cff`). The journal reference
+will be added on publication.
 
 ## License
 

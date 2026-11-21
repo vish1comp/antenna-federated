@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite it as below."
+title: "Federated Learning of Antenna Surrogates Across Laboratories: Physics-Informed Inputs, Personalization, and Per-Client Conformal Certificates"
+type: software
+authors:
+  - family-names: Verma
+    given-names: Vishal
+    affiliation: "Indian Institute of Information Technology, Bhopal, India"
+  - family-names: Pandey
+    given-names: Govind Kumar
+    affiliation: "Dayananda Sagar University, Bengaluru, India"
+  - family-names: Kumar
+    given-names: Pawan
+    affiliation: "Indian Institute of Information Technology, Bhopal, India"
+  - family-names: Gajbhiye
+    given-names: Pradnya Amrish
+    affiliation: "Indian Institute of Information Technology, Bhopal, India"
+repository-code: "https://github.com/vish1comp/antenna-federated"
+license: MIT
+date-released: 2026-11-21
+keywords:
+  - federated learning
+  - surrogate modeling
+  - microstrip patch antenna
+  - conformal prediction
+  - uncertainty quantification
+  - non-IID data
