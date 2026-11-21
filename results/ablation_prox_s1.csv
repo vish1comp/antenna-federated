@@ -1,0 +1,11 @@
+round,r2,seed,method,mu
+5,0.04689473,1,fedprox_coupled,0.01
+10,0.06442374,1,fedprox_coupled,0.01
+15,0.072378635,1,fedprox_coupled,0.01
+20,0.07443434,1,fedprox_coupled,0.01
+25,0.0760448,1,fedprox_coupled,0.01
+30,0.076640666,1,fedprox_coupled,0.01
+35,0.07669103,1,fedprox_coupled,0.01
+40,0.07708973,1,fedprox_coupled,0.01
+45,0.077729285,1,fedprox_coupled,0.01
+50,0.078066766,1,fedprox_coupled,0.01

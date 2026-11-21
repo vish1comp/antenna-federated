@@ -1,0 +1,11 @@
+dataset,seed,inputs,method,client,r2
+C,1,no_physics,central,0,0.99252313
+C,1,no_physics,central,1,0.9906597
+C,1,no_physics,central,2,0.9919296
+C,1,no_physics,central,3,0.99107873
+C,1,no_physics,central,4,0.99259484
+C,1,no_physics,fedavg,0,0.9844465
+C,1,no_physics,fedavg,1,0.98946
+C,1,no_physics,fedavg,2,0.98618454
+C,1,no_physics,fedavg,3,0.9855497
+C,1,no_physics,fedavg,4,0.99016404
