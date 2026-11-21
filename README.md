@@ -4,9 +4,6 @@ Code and results for *Federated Learning of Antenna Surrogates Across Laboratori
 Physics-Informed Inputs, Personalization, and Per-Client Conformal Certificates*
 (manuscript in preparation).
 
-**Vishal Verma¹, Govind Kumar Pandey², Pawan Kumar¹, Pradnya Amrish Gajbhiye¹**
-¹ Indian Institute of Information Technology, Bhopal, India ·
-² Dayananda Sagar University, Bengaluru, India
 
 Several laboratories each own a private archive of patch-antenna simulations and will not
 pool them. Can they still train one shared |S11| surrogate, and can each of them say how far
