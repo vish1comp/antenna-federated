@@ -88,3 +88,8 @@ figures/               all figures in the manuscript
 - Every method gets the same number of gradient steps per client (50 rounds × 200 steps).
 - Conformal scores are computed per design: sup-norm sweep error, sweep RMSE and
   resonant-frequency error, with target coverage 90 %.
+
+## License
+
+Code: [MIT](LICENSE). Dataset B is not redistributed here. It is downloaded from its
+Hugging Face page and remains under the terms set by its authors.
